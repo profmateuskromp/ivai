@@ -119,6 +119,15 @@ nav{
     outline:3px solid #1f4d3a;
 }
 
+.seta{
+    float:right;
+    transition:0.3s;
+}
+
+.card:hover .seta{
+    transform:translateX(6px);
+}
+
 footer{
 
     background:#1f4d3a;
